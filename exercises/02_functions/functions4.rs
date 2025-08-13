@@ -17,6 +17,6 @@ fn sale_price(price: i64) -> {
 }
 
 fn main() {
-    let original_price = 51;
+    let original_price:i64 = 51;
     println!("Your sale price is {}", sale_price(original_price));
 }
