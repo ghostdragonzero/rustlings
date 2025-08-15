@@ -42,6 +42,7 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::iter::FromIterator;
 
     // Don't modify this function!
     fn get_fruit_basket() -> HashMap<Fruit, u32> {
